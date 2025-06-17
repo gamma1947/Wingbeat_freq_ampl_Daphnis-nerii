@@ -1,3 +1,10 @@
+# place this code in the same directory as the data files
+# This code is used to process the data files and save the results in a new folder called 'results' 
+# in the same directory as the data files 
+
+# you need to rename the columns in the csv files to 'x_r', 'y_r', 'likelihood_r' for right wing
+# and 'x_l', 'y_l', 'likelihood_l' for left wing
+
 import os
 import pandas as pd
 import numpy as np
